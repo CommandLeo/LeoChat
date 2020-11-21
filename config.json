@@ -1,0 +1,12 @@
+{
+  "users": ["CommandLeo#6572"],
+  "channels": ["chat-for-voice", "text-for-voice"],
+  "ignoreCharacters": ["*"],
+  "language": "it",
+  "speed": 1,
+  "deleteMessage": true,
+  "speakOutside": true,
+  "autoLeave": true,
+  "changeNickname": true,
+  "token": "YOUR_TOKEN_GOES_HERE"
+}
