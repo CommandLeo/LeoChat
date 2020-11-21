@@ -6,7 +6,7 @@ module.exports = (bot, config) => {
     if (config.channels.includes(message.channel.name) && config.users.includes(message.author.tag) && !config.ignoreCharacters.some(character => message.content.startsWith(character))) {
       const voiceChannel = message.member.voice.channel || (config.speakOutside && message.guild.me.voice.channel);
       if (voiceChannel) {
-        if (config.changeNickname) ssage.guild.me.setNickname(`[TTS] ${message.member.displayName}`);
+        if (config.changeNickname) message.guild.me.setNickname(`[TTS] ${message.member.displayName}`);
         if (config.deleteMessage) message.delete();
         const connection = await voiceChannel.join();
         const parts = textchunk.chunk(message.content, 200);
