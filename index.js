@@ -1,8 +1,6 @@
 const { Client } = require('discord.js');
 const leochat = require('./leochat');
 const config = require('./config.json');
-const path = require('path');
-const fs = require('fs');
 const bot = new Client();
 
 bot.once('ready', () => {

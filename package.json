@@ -4,16 +4,16 @@
   "description": "A Discord Bot that reads your messages to others",
   "main": "index.js",
   "dependencies": {
-    "discord.js": "^12.3.1",
     "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.3.1",
     "ffmpeg-static": "^4.2.7",
-    "google-tts-api": "^0.0.5",
-    "nodemon": "^2.0.4",
-    "textchunk": "^1.1.0"
+    "node-google-tts-api": "^1.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ."
   },
   "author": "CommandLeo",
   "license": "ISC"

@@ -1,6 +1,6 @@
 {
   "users": ["CommandLeo#6572"],
-  "channels": ["chat-for-voice", "text-for-voice"],
+  "channels": ["chat-for-voice", "text-for-voice", "member-chat-for-voice", "no-mic"],
   "ignoreCharacters": ["*"],
   "language": "it",
   "speed": 1,
